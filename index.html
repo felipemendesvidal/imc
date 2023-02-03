@@ -17,18 +17,19 @@
             <div class="msg" id="campo-msg">
                 <p class="campos">
                     <label for="altura">Digite a altura</label>
-                    <input type="text" id="altura">
+                    <input type="number" id="altura" placeholder="valor em metros ex:1.40" step="0.01">
                 </p>
                 <p class="campos">
                     <label for="pesp">Digite o peso</label>
-                    <input type="text" id="pesp">
+                    <input type="number" id="pesp" placeholder="valor em Kilogs ex: 90" step="0.1">
                 </p>
+                <button id="btn_calcular" onclick="start()">Calcular imc</button>
                 
 
             </div>
             <div class="foto" id="resultado">
                 <!-- <img src="img/manha.jpg" alt="manha" id="imagem-relogio"> -->
-                <p>Area de resultados</p>
+                <p>O IMC desses dados é: </p>
             </div>
         </section>
         <footer class="foodi">
